@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin:0;
+ }
+#back-ground{
+    background: url('theroom.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    transition: all 2s;
+ }
+
+.scaleTable {
+    background-position: 190px -57px !important;
+    transform: scale(5);
+}
+
+#back {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: blueviolet;
+    top: 50%;
+    left: 50%;
+    transform: translate(-109px, -57px) !important;
+}
+#bottle {
+    position: absolute;
+    width: 13px;
+    height: 31px;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-17px, -44px) !important;
+}
+#table {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    top: 50%;
+    left: 30%;
+    transform: translate(5px,20px)
+} 
+#mirror{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    top: 10%;
+    right:2%;
+    transform: translate(5px,40px);
+    background-color: red; 
+}
+#drawers{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    bottom: 20%;
+    right:5%;
+    background-color: blue; 
+    transform: translate(30px,15px)
+}
+#door{
+    position: absolute;
+    width: 120px;
+    height: 250px;
+    top : 15%;
+    right : 25%;
+    background-color: aqua; 
+    transform: translate(70px,125px)
+}
